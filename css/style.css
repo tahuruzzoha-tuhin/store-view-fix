@@ -1,17 +1,29 @@
+
+
+/**********************\
+    CUSTOM CSS STYLE
+\**********************/
 body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
 }
+
+
+/**********************\
+    MY ELEMENT STYLE
+\**********************/
 .bg-store{
   background-color: #ecf0f1;
 }
-
+.head{
+  text-align: center;
+  font-weight: 700;
+}
 .search-field{
-  margin: 10px 0px 10px 0px;
+  margin: 1px 0px 10px 0px;
 }
 
 .search-box {
-  /* border: 2px solid black  ; */
   width: 40%;
   border-radius: 5px;
   margin: auto;
@@ -85,6 +97,12 @@ body {
 .cart-main {
   padding-right: 30px;
 }
+
+
+
+/******************************\
+    CUSTOM RESPONSIVE STYLE
+\******************************/
 @media only screen and (max-width: 768px) {
   #all-products {
     display: grid;
